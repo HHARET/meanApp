@@ -7,7 +7,7 @@ var app= express();
 require('./database');
 require('./seed');
 
-app.set('port',(process.env.PORT || 5000));
+app.set('port',(process.env.PORT || 8080));
 
 app.use('/',express.static('public'));
 //this is the body-parser installed because express
