@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
+    "postinstall": "node deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
