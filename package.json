@@ -4,7 +4,6 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "postinstall": "node deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,6 +11,7 @@
   "dependencies": {
     "angular": "^1.5.6",
     "body-parser": "1.15.1",
-    "mongoose": "4.4.20"
+    "mongoose": "4.4.20",
+    "webpack": "^1.13.1"
   }
 }
